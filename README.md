@@ -1,7 +1,7 @@
 ### Hi there, I'm Leonardo Fissicaro 👋
 
 - 🔭 I’m currently working as a front-end developer
-- 🌱 I’m currently learning flutter
+- 🌱 I’m currently learning flutter for mobile and mastering react js as a web developer
 - 💬 Ask me about anything
 
  ##
