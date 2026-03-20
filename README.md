@@ -5,7 +5,19 @@
 Building products from zero to production. Currently focused on document intelligence and portfolio management at [GoodStream](https://github.com/Good-Stream).
 
 ```typescript
-const leo = {
+interface Engineer {
+  building: readonly string[];
+  stack: {
+    frontend: readonly string[];
+    backend: readonly string[];
+    data: readonly string[];
+    infra: readonly string[];
+    ai: readonly string[];
+  };
+  approach: string;
+}
+
+const leo: Engineer = {
   building: ["GoodStream — document intelligence SaaS", "Real estate map platform"],
   stack: {
     frontend: ["SvelteKit", "Tailwind CSS", "Flutter"],
@@ -15,7 +27,7 @@ const leo = {
     ai: ["Anthropic", "Gemini", "OpenAI"],
   },
   approach: "Ship fast, keep it simple.",
-};
+} as const;
 ```
 
 ## What I'm Working On
@@ -42,8 +54,8 @@ const leo = {
 ## Stats
 
 <div>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LFissicaro&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=LFissicaro&theme=github-dark-blue&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LFissicaro&show_icons=true&theme=github_dark&hide_border=true" />
+  <img height="170" src="https://streak-stats.demolab.com?user=LFissicaro&theme=github-dark-blue&hide_border=true" />
 </div>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=LFissicaro&theme=github-compact&hide_border=true&area=true" width="100%" />
